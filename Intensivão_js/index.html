@@ -3,9 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <title>Adiobook</title>
     </head>
     <body>
-        
+        <div class="container-aplicativo">
+            <img src="/Intensivão_js/images/dom-casmurro.jpeg" alt="dom-casmurro">
+            <div id="informacoes-faixa">    
+                <p id="capitulo">Capítulo 1</p>
+                <p id="nome-autor">Machado De Assis</p>
+            </div>
+            <audio id="audio-capitulo" src="/Intensivão_js/books/dom-casmurro/1.mp3"></audio>
+            <div id="container-botoes">
+                <button id="anterior" class="bi bi-skip-backward-fill"></button>
+                <button id="play-pause" class="bi bi-play-circle-fill"></button>
+                <button id="proximo" class="bi bi-skip-forward-fill"></button>
+            </div>
+        </div>
+        <script src="/Intensivão_js/js/index.js"></script>
     </body>
 </html>
